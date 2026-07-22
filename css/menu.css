@@ -1,0 +1,17 @@
+/* MENU INTERATIVO - NÃO PRECISA MEXER */
+.header { position: sticky; top: 0; z-index: 100; background: rgba(10,10,15,0.8); backdrop-filter: blur(12px); border-bottom: 1px solid #27272a; display: flex; justify-content: space-between; align-items: center; padding: 12px 24px; }
+.logo { font-weight: 900; font-size: 22px; }
+.logo span { color: var(--cor-primaria); }
+.nav-links { display: flex; gap: 24px; list-style: none; }
+.nav-links a { color: #a1a1aa; text-decoration: none; }
+.nav-links a.ativo, .nav-links a:hover { color: white; }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+.hamburger span { width: 24px; height: 2px; background: white; transition: 0.3s; display: block; }
+@media (max-width: 768px) {
+  .nav-links { position: fixed; top: 60px; left: -100%; width: 80%; height: 100vh; background: var(--cor-fundo); flex-direction: column; padding: 30px; transition: 0.3s; }
+  .nav-links.aberto { left: 0; }
+  .hamburger { display: flex; }
+  .hamburger.ativo span:nth-child(1) { transform: rotate(45deg) translate(5px,5px); }
+  .hamburger.ativo span:nth-child(2) { opacity: 0; }
+  .hamburger.ativo span:nth-child(3) { transform: rotate(-45deg) translate(5px,-5px); }
+}
