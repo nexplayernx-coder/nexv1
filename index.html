@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEX PLAYER</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/catalogo.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">NEX <span>PLAYER</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio" class="ativo">Início</a></li>
+      <li><a href="#catalogo">Catálogo</a></li>
+      <li><a href="#planos">Planos</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="badge-novo">NOVO • CATÁLOGO ATUALIZADO DIARIAMENTE</div>
+    <h1>Filmes, séries e futebol com <span>qualidade máxima</span></h1>
+  </section>
+
+  <section id="catalogo">
+    <div class="catalogo-filtros" id="filtros"></div>
+    <div class="catalogo-grid" id="catalogoGrid"></div>
+  </section>
+
+  <section id="planos">
+    <h2 style="text-align:center; margin-top:40px;">Escolha seu plano</h2>
+    <div class="planos" id="planosContainer"></div>
+  </section>
+
+  <!-- ORDEM IMPORTA: primeiro config, depois lógica -->
+  <script src="./config/site.js"></script>
+  <script src="./config/cores.js"></script>
+  <script src="./config/planos.js"></script>
+  <script src="./config/catalogo.js"></script>
+  <script src="./js/whatsapp.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/catalogo.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
