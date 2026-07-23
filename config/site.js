@@ -9,7 +9,7 @@ const SITE_CONFIG = {
 
   // >>> TROQUE SEU WHATSAPP AQUI (só números, com DDD)
   // Exemplo: 5531999999999
-  whatsapp: "5531999999999",
+  whatsapp: "5535991148346",
 
   // >>> TROQUE SEU INSTAGRAM AQUI (sem @)
   instagram: "nexplayer.tv",
