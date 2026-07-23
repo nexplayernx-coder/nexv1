@@ -25,6 +25,11 @@ const CATALOGO_CONFIG = {
       capa: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300",
       titulo: "Drama Real",
       categoria: "Drama Real"
+      },
+    {
+      capa: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300",
+      titulo: "Ryan Teste",
+      categoria: "Drama Real"
     }
   ]
 };
